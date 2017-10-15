@@ -75,11 +75,11 @@ nav a:hover{
 }
 
 /*
-I am not using these
+I am not using these*/
 a, a:hover {
     transition: color .2s ease-in-out, background-color .2s ease-in-out;
 }
-*/
+/**/
 .bannerHome {
     background-image: url(../images/homebanner.jpg);
     background-size: cover;
