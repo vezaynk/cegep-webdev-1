@@ -1,0 +1,170 @@
+/* it's just a font pls */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+html, body {
+    font-family:"Raleway",Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+}
+h1 {
+    color: #484848;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+h2 {
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+p {
+    color: #666;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;    
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.logo {
+    position: absolute;
+    left: 2em;
+    top: 2em;
+    font-size: 1.5em;
+}
+.logo strong {
+    color: #f44066;
+}
+#header .logo a{
+    color: #fff;
+    text-decoration: none;
+}
+#header nav {
+    position: absolute;
+    right: 2em;
+    top: 2em;
+    margin-left: 130px;
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 2em;
+    margin-bottom: 0.5em
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    color: #ddd;
+    font-size: 18px;
+}
+nav a:hover{
+    color: #fff;
+}
+
+/*
+I am not using these
+a, a:hover {
+    transition: color .2s ease-in-out, background-color .2s ease-in-out;
+}
+*/
+.bannerHome {
+    background-image: url(../images/homebanner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bannerContainer{
+    background-color: rgba(0,0,0,.4);
+    height: 100%;
+    text-align: center;
+    padding: 200px 3px;
+    text-transform: uppercase;
+}
+.bannerContainer h1 {
+    color: #fff;
+}
+
+.bannerContainer h2{
+    color: #ddd;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+.bannerContainer a{
+    background-color: #f32853;
+    text-decoration: none;
+    font-size: 1.35em;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 0.8em 2.2em;
+    text-decoration: none;
+}
+
+.bannerContainer a:hover{
+    background-color: #f44066;
+}
+
+main {
+    text-align: center;
+    padding: 10px;
+}
+
+main .submain {
+    float: left;
+    width: 350px;
+    min-width: 50%;
+}
+
+main .submain p{
+    padding: 10px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery figure {
+    min-width: 25%;
+    width: 300px;
+    max-width: 100%;
+    display: inline-block;
+    margin: 2%;
+}
+
+footer {
+    position: relative;
+    padding: 2em;
+    background-color: #484848;
+    height: 20em;
+}
+
+footer .logo a{
+    color: #fff;
+    text-decoration: none;
+}
+footer nav {
+    max-width: 100%;
+    position: absolute;
+    margin-left: 130px;
+    right: 2em;
+    top: 2.7em;
+}
+
+footer nav li {
+    display: inline-block;
+    margin-left: 2em;
+}
