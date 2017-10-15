@@ -5,6 +5,7 @@ html, body {
     font-family:"Raleway",Arial,Helvetica,sans-serif;
     margin: 0;
     padding: 0;
+    min-width: 200px;
 }
 .container{
     position: relative;
@@ -37,6 +38,8 @@ p {
     left: 2em;
     top: 2em;
     font-size: 1.5em;
+    border-right: #f44066 1px solid;
+    padding-right: 5px;
 }
 .logo strong {
     color: #f44066;
