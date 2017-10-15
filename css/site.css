@@ -125,9 +125,9 @@ main {
 }
 
 main .submain {
-    float: left;
+    display: inline-block;
     width: 350px;
-    min-width: 50%;
+    min-width: 45%;
 }
 
 main .submain p{
