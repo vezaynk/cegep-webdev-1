@@ -129,6 +129,7 @@ main {
 
 .reviews {
     overflow: auto;
+    width: 100%;
 }
 .reviews review {
     display: inline-block;
@@ -138,9 +139,11 @@ main {
 blockquote {
     font-family: 'Satisfy', cursive;
     font-size: 2em;
+    margin: 0
 }
 blockquote .rating{
     display: block;
+    color: rgb(139, 139, 0);
 }
 cite::before{
     content: '~'
