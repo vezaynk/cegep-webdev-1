@@ -1,5 +1,5 @@
 /* it's just a font pls */
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Raleway:400,700');
 
 html, body {
     font-family:"Raleway",Arial,Helvetica,sans-serif;
@@ -13,7 +13,7 @@ html, body {
 }
 h1 {
     color: #484848;
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     margin: 20px 0;
 }
@@ -59,9 +59,9 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
+    display: block;
     margin-left: 2em;
-    margin-bottom: 0.5em
+    margin-bottom: 1em
 }
 
 nav a {
@@ -74,12 +74,10 @@ nav a:hover{
     color: #fff;
 }
 
-/*
-I am not using these*/
 a, a:hover {
     transition: color .2s ease-in-out, background-color .2s ease-in-out;
 }
-/**/
+
 .bannerHome {
     background-image: url(../images/homebanner.jpg);
     background-size: cover;
@@ -91,7 +89,7 @@ a, a:hover {
     background-color: rgba(0,0,0,.4);
     height: 100%;
     text-align: center;
-    padding: 200px 3px;
+    padding: 150px 3px 50px 3px;
     text-transform: uppercase;
 }
 .bannerContainer h1 {
@@ -104,15 +102,20 @@ a, a:hover {
     padding-bottom: 30px;
 }
 
-.bannerContainer a{
+.bannerContainer .callNow{
     background-color: #f32853;
     text-decoration: none;
     font-size: 1.35em;
     color: #fff;
-    border-radius: 4px;
+    border-radius: 0;
     font-weight: 700;
-    padding: 0.8em 2.2em;
     text-decoration: none;
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 0.8em 0;
 }
 
 .bannerContainer a:hover{
@@ -124,14 +127,38 @@ main {
     padding: 10px;
 }
 
+.reviews {
+    overflow: auto;
+}
+.reviews review {
+    display: inline-block;
+    width: 100%;
+}
+
+blockquote {
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+}
+blockquote .rating{
+    display: block;
+}
+cite::before{
+    content: '~'
+}
+
+.info {
+    max-width: 1400px;
+    margin: auto;
+}
+
 main .submain {
     display: inline-block;
-    width: 350px;
-    min-width: 45%;
+    width: 100%;
 }
 
 main .submain p{
     padding: 10px;
+    text-align: justify;
 }
 
 .gallery img{
@@ -165,7 +192,37 @@ footer nav {
     top: 2.7em;
 }
 
-footer nav li {
-    display: inline-block;
-    margin-left: 2em;
+
+
+.desktop-only {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+    nav li {
+        display: inline-block;  
+        margin-bottom: 0.5em
+    }
+    nav li.desktop-only {
+        display: inline-block;
+    }
+    main .submain {
+        width: 350px;
+        min-width: 45%;
+    }
+    .bannerContainer{
+        padding: 200px 3px;
+    }
+    .mobile-only {
+        display: none;
+    }
+    .bannerContainer .callNow {
+        position: static;
+        padding: 0.8em 2.2em;
+        width: auto;
+        border-radius: 4px;
+    }
 }
