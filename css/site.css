@@ -139,6 +139,7 @@ main {
     white-space: normal;
     width: 100%;
     padding: 5px;
+    border: solid 1px;
 }
 
 blockquote {
