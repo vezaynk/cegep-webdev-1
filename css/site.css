@@ -128,11 +128,15 @@ main {
 }
 
 .reviews {
-    overflow: auto;
     width: 100%;
 }
-.reviews review {
+.review-container {
+    white-space: nowrap;
+    overflow: auto;
+}
+.review {
     display: inline-block;
+    white-space: normal;
     width: 100%;
 }
 
@@ -146,7 +150,7 @@ blockquote .rating{
     color: rgb(139, 139, 0);
 }
 cite::before{
-    content: '~'
+    content: ' ~ '
 }
 
 .info {
