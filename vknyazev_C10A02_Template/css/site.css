@@ -1,3 +1,4 @@
+/* it's just a font pls */
 @import url('https://fonts.googleapis.com/css?family=Satisfy|Raleway:400,700');
 
 html, body {
@@ -161,6 +162,7 @@ cite::before{
 main .submain {
     display: inline-block;
     width: 100%;
+    vertical-align: top;
 }
 
 main .submain p{
@@ -203,6 +205,14 @@ footer nav {
 
 .desktop-only {
     display: none;
+}
+
+.copyright {
+	    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;	
 }
 
 @media screen and (min-width: 768px) {

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Int.Taxi</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/site.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Mobile-only Reviews" type="boolean" value="false" -->
+</head>
+
+<body>
+    <div class="container">
+        <header><!-- #BeginLibraryItem "/Library/nav.lbi" --><div class="navbar">
+            <span class="logo">
+                <a href="../index.html">
+                    <strong>Int.</strong>Taxi</a>
+            </span>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="desktop-only">
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="../locations.html">Locations</a>
+                    </li>
+                    <li>
+                        <a href="">Rates</a>
+                    </li>
+                    <li class="desktop-only">
+                        <a href="">Reviews</a>
+                    </li>
+                    <li class="desktop-only">
+                        <a href="">
+                            <strong>Call Now</strong>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </div><!-- #EndLibraryItem --></header>
+      <div class="bannerHome">
+        <div class="bannerContainer">
+                <h1><!-- TemplateBeginEditable name="Main heading" -->Always there for you<!-- TemplateEndEditable --></h1>
+                <h2><!-- TemplateBeginEditable name="Main Subheading" -->International transportation network<!-- TemplateEndEditable --></h2>
+              <a class="callNow" href="">Call Now!</a>
+            </div>
+        </div>
+        <main><!-- TemplateBeginIf cond="_document['Mobile-only Reviews']" -->
+          <div class="reviews mobile-only">
+            <h1>Reviews</h1>
+            <h2>What people say about us</h2>
+            <div class="review-container"><!-- TemplateBeginRepeat name="review" -->
+              <div class="review">
+                <blockquote><!-- TemplateBeginEditable name="stars1" --><span class="rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="reviewText" -->Would call again<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="reviewAuthor" --><cite>John Doe</cite><!-- TemplateEndEditable --><!-- TemplateBeginEditable name="stars2" --><span class="rating">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</span><!-- TemplateEndEditable --></blockquote>
+              </div>
+            <!-- TemplateEndRepeat --></div>
+          </div>
+        <!-- TemplateEndIf -->
+          <div class="info"><!-- TemplateBeginRepeat name="submain" -->
+              <div class="submain">
+                <h1><!-- TemplateBeginEditable name="submain heading" -->Best in Class<!-- TemplateEndEditable --></h1>
+                <h2><!-- TemplateBeginEditable name="submain subheading" -->Unmatched Service<!-- TemplateEndEditable --></h2>
+                <!-- TemplateBeginEditable name="submain text" -->
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam imperdiet mi dui, sed vulputate neque blandit at. Nullam
+                  a sem efficitur, ullamcorper velit eget, gravida nunc. Maecenas ut est ac velit pulvinar pretium
+                  in vel ligula. Donec lobortis porttitor varius. In sagittis sem nunc, et posuere lorem ultricies
+                  eget. Morbi luctus, lorem et aliquam dignissim, quam lorem ullamcorper lacus, id aliquam urna arcu
+                  ac massa. Nunc eu maximus leo. Sed convallis ex justo, sit amet fringilla magna vestibulum eget.
+                  Nullam scelerisque elit quis dui hendrerit, vel fringilla mi dapibus. In hac habitasse platea dictumst.
+                  Integer egestas, enim et facilisis gravida, tortor diam gravida urna, non mollis turpis leo et ex.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt dolor eu augue bibendum
+                  lobortis. Maecenas ornare lacus in augue interdum dictum. Aenean faucibus odio quis nisi aliquam,
+                  non elementum justo placerat.</p>
+                <!-- TemplateEndEditable --></div>
+            <!-- TemplateEndRepeat -->
+          </div>
+            <div class="gallery">
+                <h1><!-- TemplateBeginEditable name="Gallery Heading" -->We will get you anywhere<!-- TemplateEndEditable --></h1>
+              <h2><!-- TemplateBeginEditable name="Gallery Subheading" -->Whether it is by air or by sea<!-- TemplateEndEditable --></h2>
+                <!-- TemplateBeginRepeat name="captionFigure" -->
+                <figure><!-- TemplateBeginEditable name="picture" --><img src="../images/taxicabs.jpg" alt="Taxi Car"><!-- TemplateEndEditable -->
+                  <figcaption><!-- TemplateBeginEditable name="caption" -->By Car for work<!-- TemplateEndEditable --></figcaption>
+                </figure>
+                <!-- TemplateEndRepeat -->
+            </div>
+        </main>
+      <footer><!-- #BeginLibraryItem "/Library/nav.lbi" --><div class="navbar">
+            <span class="logo">
+                <a href="../index.html">
+                    <strong>Int.</strong>Taxi</a>
+            </span>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li class="desktop-only">
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="../locations.html">Locations</a>
+                    </li>
+                    <li>
+                        <a href="">Rates</a>
+                    </li>
+                    <li class="desktop-only">
+                        <a href="">Reviews</a>
+                    </li>
+                    <li class="desktop-only">
+                        <a href="">
+                            <strong>Call Now</strong>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/copyright.lbi" -->
+<h5 class="copyright">Copyright &copy; Int.Taxi. All Rights Reserved</h5><!-- #EndLibraryItem --></footer>
+    </div>
+</body>
+
+</html>
