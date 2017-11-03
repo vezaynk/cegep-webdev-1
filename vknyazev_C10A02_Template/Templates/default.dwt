@@ -52,7 +52,7 @@
         <div class="bannerContainer">
                 <h1><!-- TemplateBeginEditable name="Main heading" -->Always there for you<!-- TemplateEndEditable --></h1>
                 <h2><!-- TemplateBeginEditable name="Main Subheading" -->International transportation network<!-- TemplateEndEditable --></h2>
-              <a class="callNow" href="../rates.html">Call Now!</a>
+              <a class="callNow" href="../callnow.html">Call Now!</a>
             </div>
         </div>
         <main><!-- TemplateBeginIf cond="_document['Mobile-only Reviews']" -->
