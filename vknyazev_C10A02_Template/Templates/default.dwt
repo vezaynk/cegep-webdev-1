@@ -12,6 +12,7 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <!-- TemplateParam name="Mobile-only Reviews" type="boolean" value="false" -->
+<!-- TemplateParam name="Gallery" type="boolean" value="true" -->
 </head>
 
 <body>
@@ -33,27 +34,29 @@
                         <a href="../locations.html">Locations</a>
                     </li>
                     <li>
-                        <a href="">Rates</a>
+                        <a href="../rates.html">Rates</a>
                     </li>
                     <li class="desktop-only">
                         <a href="">Reviews</a>
                     </li>
                     <li class="desktop-only">
-                        <a href="">
+                        <a href="../callnow.html">
                             <strong>Call Now</strong>
                         </a>
                     </li>
                 </ul>
             </nav>
-            </div><!-- #EndLibraryItem --></header>
+            </div> 
+<!-- #EndLibraryItem --></header>
       <div class="bannerHome">
         <div class="bannerContainer">
                 <h1><!-- TemplateBeginEditable name="Main heading" -->Always there for you<!-- TemplateEndEditable --></h1>
                 <h2><!-- TemplateBeginEditable name="Main Subheading" -->International transportation network<!-- TemplateEndEditable --></h2>
-              <a class="callNow" href="">Call Now!</a>
+              <a class="callNow" href="../rates.html">Call Now!</a>
             </div>
         </div>
         <main><!-- TemplateBeginIf cond="_document['Mobile-only Reviews']" -->
+          
           <div class="reviews mobile-only">
             <h1>Reviews</h1>
             <h2>What people say about us</h2>
@@ -82,6 +85,7 @@
                 <!-- TemplateEndEditable --></div>
             <!-- TemplateEndRepeat -->
           </div>
+          <!-- TemplateBeginIf cond="Gallery" -->
             <div class="gallery">
                 <h1><!-- TemplateBeginEditable name="Gallery Heading" -->We will get you anywhere<!-- TemplateEndEditable --></h1>
               <h2><!-- TemplateBeginEditable name="Gallery Subheading" -->Whether it is by air or by sea<!-- TemplateEndEditable --></h2>
@@ -91,6 +95,7 @@
                 </figure>
                 <!-- TemplateEndRepeat -->
             </div>
+            <!-- TemplateEndIf -->
         </main>
       <footer><!-- #BeginLibraryItem "/Library/nav.lbi" --><div class="navbar">
             <span class="logo">
@@ -109,19 +114,20 @@
                         <a href="../locations.html">Locations</a>
                     </li>
                     <li>
-                        <a href="">Rates</a>
+                        <a href="../rates.html">Rates</a>
                     </li>
                     <li class="desktop-only">
                         <a href="">Reviews</a>
                     </li>
                     <li class="desktop-only">
-                        <a href="">
+                        <a href="../callnow.html">
                             <strong>Call Now</strong>
                         </a>
                     </li>
                 </ul>
             </nav>
-            </div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/copyright.lbi" -->
+            </div> 
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/copyright.lbi" -->
 <h5 class="copyright">Copyright &copy; Int.Taxi. All Rights Reserved</h5><!-- #EndLibraryItem --></footer>
     </div>
 </body>
