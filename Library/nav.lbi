@@ -9,7 +9,7 @@
                         <a href="../index.html">Home</a>
                     </li>
                     <li class="desktop-only">
-                        <a href="">About</a>
+                        <a href="../about.html">About</a>
                     </li>
                     <li>
                         <a href="../locations.html">Locations</a>
@@ -18,7 +18,7 @@
                         <a href="../rates.html">Rates</a>
                     </li>
                     <li class="desktop-only">
-                        <a href="">Reviews</a>
+                        <a href="../reviews.html">Reviews</a>
                     </li>
                     <li class="desktop-only">
                         <a href="../callnow.html">
