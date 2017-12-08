@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Since 1982, we were in the business of getting you from Arbitrary Point A to Aribtrary Point B quickly, and in comfort. After a ride with us, you will never want to drive yourself anywhere. Our drivers are carefully vetted for experience, professionalism and history. ">
+<meta name="Keywords" content="Taxi Service Uber Transfer Helicopter">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Int.Taxi</title>
 <!-- InstanceEndEditable -->
@@ -62,25 +64,54 @@
                 <h2><!-- InstanceBeginEditable name="submain subheading" -->Phone and email<!-- InstanceEndEditable --></h2>
                 <!-- InstanceBeginEditable name="submain text" -->
                 <p>Since Int.Taxi is an international service, please use an appropriate number for your area.</p>
-                <p>Canada: <strong>1-800-123-1234</strong></p>
-                <p>US:<strong> 1-800-234-2345</strong></p>
-                <p>Europe: <strong>5-123-123-564</strong></p>
-                <p>
+                <p>Canada: <strong class="desktop-only">1-800-123-1234</strong><strong class="mobile-only"><a href="tel:1-800-123-123">1-800-123-1234</a></strong></p>
+                <p>US: <strong class="desktop-only">1-800-234-2345</strong><strong class="mobile-only"><a href="tel:1-800-234-234">1-800-234-2345</a></strong></p>
+                <p>Europe: <strong class="desktop-only">5-123-123-564</strong><strong class="mobile-only"><a href="tel:5-123-123-564">5-123-123-564</a></strong></p>
                 	<form>
                     <p>
                     	<label for="name">Your Name: </label>
-                    	<input type="text" placeholder="John Steward" name="name">
+                        <input type="text" placeholder="John Steward" name="name" id="name">
                         </p><p>
                         <label for="email">Your Email: </label>
-                    	<input type="email" name="email" placeholder="john.steward@gmail.com" required>
+                    	<input type="email" name="email" id="email" placeholder="john.steward@gmail.com" required>
                         </p>
                         <p>
                         <label for="msg">Message: <br></label>
-                    	<textarea name="msg" placeholder="How can we help you?"></textarea>
+                    	<textarea name="msg" id="msg" placeholder="How can we help you?"></textarea>
                         </p>
-                        <input class="btn" type="submit">
+                        <fieldset>
+                            <legend>About Request (Mark All That Apply)</legend>
+                           
+                            <label for="urgent">Urgent: </label>
+                            <input type="checkbox" id="urgent" name="urgent">
+                         
+                            <label for="followup">Follow-up: </label>
+                            <input type="checkbox" id="followup" name="followup">
+                            
+                           </fieldset>
+                        <p><label for="type">Type of inquiry: </label><select name="type" id="type">
+                        <option value="1">Transfer Request</option>
+                        <option value="2">Business inquiry</option>
+                        <option value="3">Customer service</option>
+                        <option value="4">Threats</option>    
+                        </select></p>
+                        <div class="formtable">
+                                <label>Did you previously use our service?</label>
+                                <table>
+                                    <tr>
+                                        <th> <label><input type="radio" name="recCust" value="No"> Yes</label>
+                                        </th>
+                                        <th>
+                                                <label><input type="radio" name="recCust" value="No"> No</label>
+                                        </th>
+                                    </tr>
+                                </table>
+                            </div>
+                        <div class="submit">
+                        <input class="btn" type="submit" value="Send">
+                            
+                    </div>
                     </form>
-                </p>
                 <!-- InstanceEndEditable --></div>
             <!-- InstanceEndRepeatEntry --><!-- InstanceEndRepeat -->
           </div>

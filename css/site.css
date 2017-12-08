@@ -102,7 +102,8 @@ a, a:hover, .btn, .btn:hover {
 }
 
 .simpleList {
-	text-align: left;
+    text-align: left;
+    list-style-type: square;
 }
 
 .btn{
@@ -257,20 +258,44 @@ input {
 	padding: 3px;
 	display: block;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+form > * {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+form label, form input, form select {
+    width: 100%;
+}
+
+form label {
+    flex-shrink: 2.5;
+}
+
+video {
+    width: 100%;
+}
+
+span.logo::after {
+    content: 'www.InternationalTaxi.co';
+    color: #ffffff96;
+    display: block;
+    font-size: 0.4em;
+}
+
 @media screen and (min-width: 768px) {
 	textarea {
 width: 100%;
 height: 75px;
 font-family: Verdana, Geneva, sans-serif;
-}
-label {
-	width: 25%;	
-	display: inline-block;
-	text-align: right;
-}
-input {
-	width: 70%;
-	display: inline;
 }
     h1 {
         font-size: 3em;
@@ -279,7 +304,7 @@ input {
         display: inline-block;  
         margin-bottom: 0.5em
     }
-    nav li.desktop-only {
+    .desktop-only {
         display: inline-block;
     }
     main .submain {
@@ -297,5 +322,12 @@ input {
         padding: 0.8em 2.2em;
         width: auto;
         border-radius: 4px;
+    }
+
+    form > p {
+        flex-direction: row;
+    }
+    form > p > label {
+        text-align: right;
     }
 }
